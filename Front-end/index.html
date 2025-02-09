@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maksym Yeremenko - Front-End Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: #E0EBFE;
+            color: black;
+            position: fixed;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar h3 {
+            color: black;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li strong {
+            color: black;
+        }
+
+        .sidebar ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content Section */
+        .content {
+            margin-left: 270px;
+            padding: 20px;
+            max-width: 1200px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+
+        header {
+            background-color: #E0EBFE;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+
+        h3 {
+            color: #282c34;
+            font-size: 1.6em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        .skills ul,
+        .education ul,
+        .work-experience ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li,
+        .education li,
+        .work-experience li {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #E0EBFE;
+            color: black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Contacts</h3>
+        <ul>
+            <li><strong>C:</strong> +380 96 0606 171</li>
+            <li><strong>E:</strong> <a href="mailto:emaks392@gmail.com">emaks392@gmail.com</a></li>
+        </ul>
+        <h3>Tech Skills</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>GIT</li>
+            <li>WebPack</li>
+            <li>JavaScript</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Scrum</li>
+            <li>Agile</li>
+            <li>GTD</li>
+            <li>Teamwork</li>
+        </ul>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <header>
+            <h1>Maksym Yeremenko</h1>
+            <h2>Front-End Developer</h2>
+        </header>
+
+        <section>
+            <h3>About Me</h3>
+            <p>A responsible, detail-oriented developer who strives to create high-quality and clean code. I learn
+                quickly, follow modern trends in web development, and am open to new challenges. I am ready to work in a
+                team and develop my skills.</p>
+        </section>
+
+        <section>
+            <h3>Achievements</h3>
+            <ul>
+                <li>HTML & CSS Developer - Diploma</li>
+                <li>Front-End - Diploma</li>
+            </ul>
+        </section>
+
+        <section class="work-experience">
+            <h3>Work Experience</h3>
+            <h4>Front-End Developer</h4>
+            <p><strong>September 2024 - Present</strong></p>
+            <ul>
+                <li>Development of adaptive and cross-browser web pages</li>
+                <li>Layout based on layouts (Figma, PSD) using BEM methodology</li>
+                <li>Interaction with developers and designers</li>
+                <li>Revision and support of existing projects</li>
+            </ul>
+
+            <h4>Figma Designer</h4>
+            <p><strong>June 2024 - Present</strong></p>
+            <ul>
+                <li>Create designs in Figma</li>
+                <li>Interactions with Front-End developers</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5, CSS3, SCSS</li>
+                <li>Flexbox, CSS Grid</li>
+                <li>BEM (methodology)</li>
+                <li>Cross-browser and adaptive layout</li>
+                <li>Optimization of page loading speed</li>
+                <li>JavaScript basics</li>
+                <li>GitHub</li>
+                <li>Working with Figma, Photoshop for cutting layouts</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h3>Education</h3>
+            <ul>
+                <li>Specialized School 211, Ukraine | <strong>September 2017 - Present</strong></li>
+            </ul>
+
+            <h3>Additional Education</h3>
+            <ul>
+                <li>HTML & CSS Developer - Genius Space</li>
+                <li>JavaScript - Genius Space</li>
+                <li>HTML & CSS Developer - GoIt</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Maksym Yeremenko | Front-End Developer</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
